@@ -35,22 +35,7 @@ class Platform(Turtle):
     def increase_bot_speed(self):
         self.bot_move += 3
 
-    # def random_collision_location(self):
-    #     # collision_offset_step = []
-    #     # for i in range(-60, 61, 5):
-    #     #     collision_offset_step.append(i)
-    #
-    #
-    #     # self.collision_offset_step = [0, 10, 20, 80, 30, 40, 50, 60, 10]
-    #     # random.shuffle(self.collision_offset_step)
-    #     # random_element = random.choice(self.collision_offset_step)
-    #
-    #     random_element = random.randint(0, 70)
-    #
-    #     return random_element
 
-    def random_collision(self):
-        self.random_int = random.randint(0, 65)
 
 
 
